@@ -1,0 +1,160 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .product-price {
+    color: #4a5568;
+    font-size: 16px;
+  }
+  
+  .product-stock {
+    font-size: 14px;
+    color: #718096;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    padding: 6px 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .edit-button {
+    background-color: #facc15;
+  }
+  
+  .delete-button {
+    background-color: #dc2626;
+  }
+  .product-form {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    width:100%;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .input-field {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+  }
+  
+  .checkbox {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .upload-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .file-input {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .image-preview {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .upload-status {
+    font-size: 14px;
+    color: #4a5568;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  
+  .submit-button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .cancel-button {
+    background-color: #6b7280;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .submit-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .cancel-button:hover {
+    background-color: #4b5563;
+  }
+  
